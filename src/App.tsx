@@ -46,7 +46,7 @@ const D = {
     itemSpecs: 'Mahsulot xususiyatlari',
     dims: "O'lchamlari (mm)",
     length: 'Uzunligi',
-    width: 'Kengligi',
+    width: 'Eni',
     height: 'Balandligi',
     learnMeasure: "Mahsulotingizni qanday o'lchashni bilmaysizmi? ",
     learnHere: 'Shu yerda bilib oling',
@@ -61,7 +61,7 @@ const D = {
 };
 
 export default function App() {
-  const [lang, setLang] = useState<Lang>('EN');
+  const [lang, setLang] = useState<Lang>('UZ');
   const t = D[lang];
 
   const [length, setLength] = useState<string>('');
